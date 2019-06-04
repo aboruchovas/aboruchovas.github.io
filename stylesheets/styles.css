@@ -1,0 +1,57 @@
+body {
+    background-color: #EFEDFF;
+    font-family: 'Mandali', sans-serif;
+}
+
+#wrapper {
+    margin: 0 8em;
+}
+
+#navbar {
+    font-size: 1.25em;
+    text-align: right;
+}
+
+#navbar ul {
+    padding: 0;
+}
+
+#navbar li {
+    display: inline-block;
+}
+
+#navbar a {
+    text-decoration: none;
+    transition: color .5s;
+    font-weight: bold;
+    color: black;
+}
+
+#navbar a:hover {
+    color: #9a83ff;
+}
+
+.nav-item {
+    padding: 1em;
+}
+
+#headline {
+    font-size: 2em;
+    padding-right: 3em;
+}
+
+#name {
+    color: #9a83ff;
+}
+
+#about-me {
+    font-size: 1.2em;
+}
+
+#projects, #contact {
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
