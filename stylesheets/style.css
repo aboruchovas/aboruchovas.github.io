@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    background-color: #2E2D4D;
+}
+
+#wrapper {
+    text-align: center;
+    margin: 1em;
+
+    font-family: 'Akimo', sans-serif;
+    color: white;
+}
+
+#title {
+    font-size: 1.9em;
+}
+
+#blurb {
+    font-size: 1.1em;
+}
+
+#projects {
+    margin: 3em 0;
+    
+    background-color: #59C9A5;
+    border: 5px solid #56E39F;
+    height: 200px;
+}
+
+#contact {
+    background-color: #CB48B7;
+    border: 5px solid #E070CF;
+}
+
+#contact li {
+    list-style: none;
+    padding: 0.5em 0;
+}
+
+#contact a {
+    text-decoration: none;
+    font-size: 1.1em;
+    color: white;
+}
+
+#projects h1, #contact h1 {
+    font-size: 1.2em;
+    text-align: left;
+    padding: 0 0.3em;
+}
+
+.underline_animation {
+    padding: 0.5em;
+
+    background-image: linear-gradient(120deg, #fa84a7 0%, #dc8ff4 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.1em;
+    background-position: 0 88%;
+
+    transition: background-size 0.25s ease-in;
+}
+
+.underline_animation:hover {
+    background-size: 100% 88%;
+}
+
+@media only screen and (min-width: 600px) {
+    #title {
+        font-size: 2.5em;
+    }
+
+    #blurb {
+        font-size: 1.2em;
+    }
+
+    #projects h1, #contact h1 {
+        font-size: 1.8em;
+    }
+
+    #projects {
+        height: 100%;
+    }
+
+    #contact li {
+        display: inline-block;
+        padding: 0 2em;
+    }
+
+    .underline_animation {
+        background-size: 100% 0.2em;
+    }
+}
