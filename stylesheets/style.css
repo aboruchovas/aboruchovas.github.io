@@ -1,15 +1,23 @@
 body {
-    margin: 0;
     background-color: #2E2D4D;
+    margin: 0;
 }
 
 #wrapper {
-    text-align: center;
-    margin: 1em;
-
-    font-family: 'Akimo', sans-serif;
     color: white;
+    font-family: 'Akimo', sans-serif;
+    margin: 1em;
+    text-align: center;
 }
+
+hr {
+    border: 1px solid #56E39F;
+    width: 90%; 
+}
+
+/* -------------------------------------------------
+[Headings]
+------------------------------------------------- */
 
 #title {
     font-size: 2.5em;
@@ -19,37 +27,43 @@ body {
     font-size: 1.1em;
 }
 
-hr {
-    width: 90%; 
-    border: 1px solid #56E39F;
+.box_title {
+    font-size: 1.8em;
+    padding: 0 0.8em;
+    text-align: left;
 }
 
+/* -------------------------------------------------
+[Projects]
+------------------------------------------------- */
+
 #projects {
-    margin: 3em 0;
-    
     background-color: #59C9A5;
     border: 5px solid #56E39F;
     height: 100%;
+    margin: 3em 0;
 }
 
 .project_item {
-    margin-bottom: 2.5em;
+    margin: 0 1.5em 2.5em;
 }
 
 #projects h2, #projects p {
     text-align: left;
-    padding: 0 1.4em;
 }
 
 #projects h2 {
     font-size: 1.4em;
-    padding: 0 1em;
     margin-bottom: 0.3em;
 }
 
 #projects p {
     margin-top: 0;
 }
+
+/* -------------------------------------------------
+[Contact]
+------------------------------------------------- */
 
 #contact {
     background-color: #CB48B7;
@@ -62,31 +76,31 @@ hr {
 }
 
 #contact a {
-    text-decoration: none;
-    font-size: 1.1em;
     color: white;
+    font-size: 1.1em;
+    text-decoration: none;
 }
 
-#projects h1, #contact h1 {
-    font-size: 1.8em;
-    text-align: left;
-    padding: 0 0.8em;
-}
+/* -------------------------------------------------
+[Animations]
+------------------------------------------------- */
 
 .underline_animation {
-    padding: 0.5em;
-
     background-image: linear-gradient(120deg, #fa84a7 0%, #dc8ff4 100%);
+    background-position: 0 88%;
     background-repeat: no-repeat;
     background-size: 100% 0.1em;
-    background-position: 0 88%;
-
+    padding: 0.5em;
     transition: background-size 0.25s ease-in;
 }
 
 .underline_animation:hover {
     background-size: 100% 88%;
 }
+
+/* -------------------------------------------------
+[CSS for Desktops]
+------------------------------------------------- */
 
 @media only screen and (min-width: 600px) {
     #wrapper {
