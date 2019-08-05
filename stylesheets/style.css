@@ -45,7 +45,7 @@ hr {
 }
 
 .project_item {
-    margin: 0 1.5em 2.5em;
+    margin: 1.5em 1.5em 2.5em;
 }
 
 .project_link {
@@ -75,7 +75,7 @@ hr {
 
 #projects h2 {
     font-size: 1.4em;
-    margin-bottom: 0.3em;
+    margin: 0 0 0.3em;
 }
 
 #projects p {
@@ -151,5 +151,11 @@ hr {
 
     .underline_animation {
         background-size: 100% 0.2em;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    #wrapper {
+        margin: 0 10em;
     }
 }
