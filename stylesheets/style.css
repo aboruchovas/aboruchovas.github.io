@@ -159,3 +159,15 @@ hr {
         margin: 0 10em;
     }
 }
+
+/* ////////////////////////////////////////// */
+
+.bx {
+    color: #CB48B7;
+}
+
+#contacts li {
+    display: inline-block;
+    padding: 2em 1em;
+    float: left;
+}
