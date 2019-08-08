@@ -119,6 +119,41 @@ hr {
     background-size: 100% 88%;
 } */
 
+/* ////////////////////////////////////////// */
+
+.bx {
+    color: #ffffff;
+}
+
+#contacts ul {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+#contacts li {
+    display: inline-block;
+    padding: 2.5em;
+}
+
+#contacts i {
+    transition: 0.3s color;
+}
+
+#contacts i:hover {
+    color: #E070CF;
+}
+
+#profile {
+    height: 100vh; 
+    text-align: left;
+}
+
+#profile-child {
+    padding: 3.5em 1.5em;
+}
+
+
 /* -------------------------------------------------
 [CSS for Desktops]
 ------------------------------------------------- */
@@ -156,6 +191,11 @@ hr {
         text-align: left;
     }
 
+    #contacts li {
+        float: left;
+        padding: 3em 0 0 4.5em;
+    }
+
     /* #contact li {
         display: inline-block;
         padding: 0 2em;
@@ -173,48 +213,17 @@ hr {
 
     #title {
         font-size: 3em;
-        padding-top: 8em; 
+        padding-top: 7.5em; 
     }
 
     #blurb {
         font-size: 2em;
     }
+
+
+    #contacts li {
+        float: left;
+        padding: 3em 0 0 5em;
+    }
 }
 
-/* ////////////////////////////////////////// */
-
-.bx {
-    color: #ffffff;
-}
-
-#contacts ul {
-    text-align: center;
-    padding: 0;
-    margin: 0;
-}
-
-#contacts li {
-    display: inline-block;
-    padding: 2.5em 2.5em;
-}
-
-#contacts i {
-    transition: 0.3s color;
-}
-
-#contacts i:hover {
-    color: #E070CF;
-}
-
-#profile {
-    height: 100vh; 
-    text-align: left;
-}
-
-#profile-child {
-    padding: 3.5em 1.5em;
-}
-
-#contacts {
-    float: 
-}
