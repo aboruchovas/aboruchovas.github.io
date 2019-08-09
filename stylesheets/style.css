@@ -10,14 +10,18 @@ body {
     text-align: center;
 }
 
-hr {
-    border: 1px solid #56E39F;
-    width: 90%; 
-}
-
 /* -------------------------------------------------
 [Headings]
 ------------------------------------------------- */
+
+#profile {
+    height: 100vh; 
+    text-align: left;
+}
+
+#profile-child {
+    padding: 3em 1.5em;
+}
 
 #title {
     font-size: 2.5em;
@@ -34,8 +38,40 @@ hr {
 }
 
 /* -------------------------------------------------
+[Contact]
+------------------------------------------------- */
+
+#contact ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#contact li {
+    display: inline-block;
+    padding: 2em;
+}
+
+#contact i {
+    transition: 0.3s color;
+}
+
+#contact i:hover {
+    color: #E070CF;
+}
+
+.bx {
+    color: #ffffff;
+}
+
+/* -------------------------------------------------
 [Projects]
 ------------------------------------------------- */
+
+hr {
+    border: 1px solid #56E39F;
+    width: 90%; 
+}
 
 #projects {
     background-color: #59C9A5;
@@ -49,8 +85,8 @@ hr {
 }
 
 .project_link {
-    text-decoration: none;
     color: white;
+    text-decoration: none;
 }
 
 .project_link:hover {
@@ -64,9 +100,9 @@ hr {
 
 .project_skills span {
     background-color: #56E39F;
+    display: inline-block;
     margin: 0.5em 1em 0 0;
     padding: 0.55em;
-    display: inline-block;
 }
 
 #projects h2, #projects p {
@@ -83,75 +119,8 @@ hr {
 }
 
 /* -------------------------------------------------
-[Contact]
-------------------------------------------------- */
-
-/* #contact {
-    background-color: #CB48B7;
-    border: 5px solid #E070CF;
-}
-
-#contact li {
-    list-style: none;
-    padding: 0.5em 0;
-}
-
-#contact a {
-    color: white;
-    font-size: 1.1em;
-    text-decoration: none;
-} */
-
-/* -------------------------------------------------
 [Animations]
 ------------------------------------------------- */
-
-/* .underline_animation {
-    background-image: linear-gradient(120deg, #fa84a7 0%, #dc8ff4 100%);
-    background-position: 0 88%;
-    background-repeat: no-repeat;
-    background-size: 100% 0.1em;
-    padding: 0.5em;
-    transition: background-size 0.25s ease-in;
-}
-
-.underline_animation:hover {
-    background-size: 100% 88%;
-} */
-
-/* ////////////////////////////////////////// */
-
-.bx {
-    color: #ffffff;
-}
-
-#contacts ul {
-    text-align: center;
-    padding: 0;
-    margin: 0;
-}
-
-#contacts li {
-    display: inline-block;
-    padding: 2em;
-}
-
-#contacts i {
-    transition: 0.3s color;
-}
-
-#contacts i:hover {
-    color: #E070CF;
-}
-
-#profile {
-    height: 100vh; 
-    text-align: left;
-}
-
-#profile-child {
-    padding: 3em 1.5em;
-}
 
 
 /* -------------------------------------------------
@@ -159,26 +128,13 @@ hr {
 ------------------------------------------------- */
 
 @media only screen and (min-width: 600px) {
+    #contact li {
+        float: left;
+        padding: 3em 0 0 4.5em;
+    }
+
     #wrapper {
         margin: 0 5em;
-    }
-
-    #title {
-        font-size: 2.5em;
-        padding-top: 9em; 
-        margin: 0;
-    }
-
-    #blurb {
-        font-size: 1.2em;
-    }
-
-    #projects h1, #contact h1 {
-        font-size: 1.8em;
-    }
-
-    #projects {
-        height: 85vh;
     }
 
     #profile {
@@ -186,27 +142,36 @@ hr {
     }
 
     #profile-child {
-        width: 49%; 
         float: right;
         text-align: left;
+        width: 49%; 
     }
 
-    #contacts li {
-        float: left;
-        padding: 3em 0 0 4.5em;
+    #title {
+        font-size: 2.5em;
+        margin: 0;
+        padding-top: 9em; 
     }
 
-    /* #contact li {
-        display: inline-block;
-        padding: 0 2em;
+    #blurb {
+        font-size: 1.2em;
     }
 
-    .underline_animation {
-        background-size: 100% 0.2em;
-    } */
+    #projects {
+        height: 85vh;
+    }
+
+    #projects h1, #contact h1 {
+        font-size: 1.8em;
+    }
 }
 
 @media only screen and (min-width: 1400px) {
+    #contact li {
+        float: left;
+        padding: 3em 0 0 5em;
+    }
+
     #wrapper {
         margin: 0 10em;
     }
@@ -219,11 +184,4 @@ hr {
     #blurb {
         font-size: 2em;
     }
-
-
-    #contacts li {
-        float: left;
-        padding: 3em 0 0 5em;
-    }
 }
-
