@@ -5,27 +5,43 @@ body {
 
 #wrapper {
     color: white;
-    font-family: 'Akimo', sans-serif;
     margin: 1em;
-    text-align: center;
 }
+
+#first_page {
+    color: white;
+    height: 100vh;
+    background-image: linear-gradient( #537895 0%, #2e2d4d 100%);    
+}
+
+#second_page {
+    color: white;
+    height: 100vh;
+}
+
+
 
 /* -------------------------------------------------
 [Headings]
 ------------------------------------------------- */
 
 #profile {
-    height: 90vh; 
     text-align: left;
+    margin: 0 1em;
 }
 
 #profile-child {
-    padding: 2.5em 0.5em;
+    padding: 2.5em 0em;
 }
 
-#title {
+.title {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 2.5em;
+    text-align: left;
+}
+
+.project_title {
+    text-align: center;
 }
 
 #blurb {
@@ -70,25 +86,24 @@ body {
 [Projects]
 ------------------------------------------------- */
 
-hr {
-    border: 1px solid #56E39F;
-    width: 90%; 
-}
-
-#projects {
-    background-color: #59C9A5;
-    border: 5px solid #56E39F;
-    height: 100%;
-    margin-bottom: 3em;
-}
-
 .project_item {
-    margin: 1.5em 1.5em 2.5em;
+    background-image: linear-gradient(#2E2D4D 50% , white 50%);
+    background-color: #2E2D4D;
+    border-radius: 1em;
+    font-family: 'Open Sans', sans-serif;
+    margin: 1em 1em 2em 1em;
+    position: relative;
+    height: 350px;
 }
 
 .project_link {
-    color: white;
+    color: black;
     text-decoration: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-left: 1.5em;
+    font-size: 0.7em;
 }
 
 .project_link:hover {
@@ -176,17 +191,17 @@ hr {
     }
 
     #profile {
-        height: 100vh; 
-        text-align: right;
+        margin: 0 5em;
     }
 
     #profile-child {
         float: right;
+        padding: 2.5em 0.5em;
         text-align: left;
         width: 49%; 
     }
 
-    #title {
+    .title {
         font-size: 2.5em;
         margin: 0;
         padding-top: 9em; 
@@ -196,8 +211,18 @@ hr {
         font-size: 1.25em;
     }
 
-    #projects {
-        height: 85vh;
+    .project_title {
+        padding: 0.5em 0.5em; 
+        margin: 1em 1em 0.5em 1em;
+        text-align: left;
+    }
+
+    .project_item {
+        display: inline-block;
+        width: 22%;
+        max-width: 420px;
+        height: 280px;
+        margin: 0 0.5em;
     }
 
     #projects h1, #contact h1 {
@@ -215,12 +240,25 @@ hr {
         margin: 0 10em;
     }
 
-    #title {
+    .title {
         font-size: 3em;
         padding-top: 7.5em; 
+    }
+
+    .project_title {
+        padding-top: 0;
     }
 
     #blurb {
         font-size: 1.8em;
     }
+
+    #profile {
+        margin: 0 9em;
+    }
+
+    .project_item {
+        height: 350px;
+    }
+    
 }
