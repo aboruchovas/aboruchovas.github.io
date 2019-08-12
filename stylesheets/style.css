@@ -93,8 +93,8 @@ body {
     width: 100%; 
 }
 
-.project_item:last-child {
-    margin-bottom: 8em;
+.last_project_item {
+    margin-bottom: 10em;
 }
 
 .project_link {
@@ -209,7 +209,7 @@ body {
         width: 22%;
     }
 
-    .project_item:last-child {
+    .last_project_item {
         margin-bottom: 0;
     }
 }
