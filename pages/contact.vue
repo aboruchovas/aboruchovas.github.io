@@ -3,10 +3,10 @@
     <div>
       <NavBar />
       <h1 class="title">
-        Arnas Boruchovas
+        Contact
       </h1>
       <h2 class="subtitle">
-        I'm a Computer Science student at the University of Sheffield
+        Here are some of the ways you can contact me
       </h2>
     </div>
   </div>
