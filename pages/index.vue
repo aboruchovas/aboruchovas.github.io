@@ -1,13 +1,17 @@
 <template>
-  <div class="container">
-    <div>
-      <NavBar />
-      <h1 class="title">
-        Arnas Boruchovas
-      </h1>
-      <h2 class="subtitle">
-        I'm a Computer Science student at the University of Sheffield
-      </h2>
+  <div>
+    <NavBar />
+    <div class="container">
+      <div>
+        <div class="art-block">
+          <h1 class="title">
+            Arnas Boruchovas
+          </h1>
+        </div>
+        <h2 class="subtitle">
+          Computer Science student at the University of Sheffield
+        </h2>
+      </div>
     </div>
   </div>
 </template>
@@ -25,7 +29,7 @@ export default {
 <style>
 .container {
   margin: 0 auto;
-  min-height: 100vh;
+  min-height: 50vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -33,7 +37,7 @@ export default {
 }
 
 .title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
+  font-family: 'Tahoma', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
     'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   display: block;
   font-weight: 300;
@@ -42,12 +46,16 @@ export default {
   letter-spacing: 1px;
 }
 
+.art-block {
+  background-color: #d8dee9;
+}
+
 .subtitle {
   font-weight: 300;
   font-size: 42px;
   color: #526488;
   word-spacing: 5px;
-  padding-bottom: 15px;
+  padding: 1em 0;
 }
 
 .links {
