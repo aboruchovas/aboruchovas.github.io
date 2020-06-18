@@ -4,10 +4,10 @@
       <b-nav-item href="/">About me</b-nav-item>
     </b-navbar-nav>
     <b-navbar-nav class="mx-auto">
-      <b-nav-item href="work">Work</b-nav-item>
+      <b-nav-item href="/work">Work</b-nav-item>
     </b-navbar-nav>
     <b-navbar-nav class="mx-auto">
-      <b-nav-item href="contact">Contact</b-nav-item>
+      <b-nav-item href="/contact">Contact</b-nav-item>
     </b-navbar-nav>
   </b-navbar>
 </template>
