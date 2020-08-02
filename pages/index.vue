@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1 class="title text-center display-3 pt-4">
-      <a href="/" class="text-dark">Arnas Boruchovas</a>
+      <a href="/">Arnas Boruchovas</a>
     </h1>
 
     <NavBar />
@@ -20,8 +20,11 @@ export default {
 
 <style>
 .title {
-  font-family: 'Roboto';
-  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+}
+
+.title a {
+  color: black;
 }
 
 a {
