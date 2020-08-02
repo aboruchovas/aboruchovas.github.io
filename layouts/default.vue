@@ -18,7 +18,7 @@ html {
 }
 
 body {
-  background-color: #eceff4;
+  background-color: #ffffff;
 }
 
 *,
