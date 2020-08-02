@@ -1,18 +1,10 @@
 <template>
   <div>
+    <h1 class="title text-center display-3 pt-4">
+      <a href="/" class="text-dark">Arnas Boruchovas</a>
+    </h1>
+
     <NavBar />
-    <div class="container">
-      <div>
-        <div class="art-block">
-          <h1 class="title">
-            Arnas Boruchovas
-          </h1>
-        </div>
-        <h2 class="subtitle">
-          Computer Science student at the University of Sheffield
-        </h2>
-      </div>
-    </div>
   </div>
 </template>
 
@@ -27,38 +19,12 @@ export default {
 </script>
 
 <style>
-.container {
-  margin: 0 auto;
-  min-height: 50vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
 .title {
-  font-family: 'Tahoma', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
+  font-family: 'Roboto';
+  font-weight: 500;
 }
 
-.art-block {
-  background-color: #d8dee9;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding: 1em 0;
-}
-
-.links {
-  padding-top: 15px;
+a {
+  text-decoration: none !important;
 }
 </style>
