@@ -1,32 +1,28 @@
 <template>
-  <b-navbar type="dark" variant="info">
-    <b-navbar-nav class="mx-auto">
-      <b-nav-item href="/">About me</b-nav-item>
-    </b-navbar-nav>
-    <b-navbar-nav class="mx-auto">
-      <b-nav-item href="/work">Work</b-nav-item>
-    </b-navbar-nav>
-    <b-navbar-nav class="mx-auto">
-      <b-nav-item href="/contact">Contact</b-nav-item>
-    </b-navbar-nav>
-  </b-navbar>
+  <footer class="footer">
+    <div class="container d-flex justify-content-between h-100">
+      <a href="/about" class="text-white display-4 align-self-center">
+        About
+      </a>
+      <a href="/contact" class="text-white display-4 align-self-center">
+        Contact
+      </a>
+    </div>
+  </footer>
 </template>
 
 <style>
-.navbar {
-  min-height: 75px;
+.footer {
+  font-family: 'Roboto';
+  background-color: #f8b544;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
 }
 
-.navbar.navbar-dark.bg-info {
-  background-color: #e5e9f0 !important;
-}
-
-.nav-link {
-  color: #434c5e !important;
-  font-size: 1.25em;
-}
-
-.nav-link:hover {
-  color: #313846 !important;
+.footer a {
+  font-weight: 500;
+  text-decoration: none !important;
 }
 </style>
