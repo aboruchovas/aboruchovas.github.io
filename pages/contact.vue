@@ -31,4 +31,10 @@ export default {
 a {
   text-decoration: none !important;
 }
+
+@media only screen and (max-width: 768px) {
+  .title {
+    font-size: 3rem;
+  }
+}
 </style>

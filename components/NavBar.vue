@@ -29,7 +29,7 @@
 
 @media only screen and (max-width: 768px) {
   .footer a {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 }
 </style>
