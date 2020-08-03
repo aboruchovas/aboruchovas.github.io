@@ -21,6 +21,7 @@ export default {
 <style>
 .title {
   font-family: 'Roboto', sans-serif;
+  font-weight: 500;
 }
 
 .title a {

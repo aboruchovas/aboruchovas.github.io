@@ -1,10 +1,10 @@
 <template>
   <footer class="footer">
     <div class="container d-flex justify-content-between h-100">
-      <a href="/about" class="text-white display-4 align-self-center">
+      <a href="/about" class="text-white align-self-center">
         About
       </a>
-      <a href="/contact" class="text-white display-4 align-self-center">
+      <a href="/contact" class="text-white align-self-center">
         Contact
       </a>
     </div>
@@ -13,7 +13,7 @@
 
 <style>
 .footer {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   background-color: #f8b544;
   position: fixed;
   bottom: 0;
@@ -24,5 +24,12 @@
 .footer a {
   font-weight: 500;
   text-decoration: none !important;
+  font-size: 3.5rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .footer a {
+    font-size: 3rem;
+  }
 }
 </style>

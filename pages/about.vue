@@ -46,6 +46,7 @@ export default {
 <style>
 .title {
   font-family: 'Roboto', sans-serif;
+  font-weight: 500;
 }
 
 .title a {
@@ -54,10 +55,20 @@ export default {
 
 .about {
   font-family: 'Roboto', sans-serif;
-  font-size: 2.5em;
+  font-weight: 500;
+  font-size: 2.5rem;
 }
 
 a {
   text-decoration: none !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .title {
+    font-size: 3rem;
+  }
+  .about {
+    font-size: 1.5rem;
+  }
 }
 </style>
