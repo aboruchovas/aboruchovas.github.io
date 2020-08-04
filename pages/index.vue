@@ -1,6 +1,8 @@
 <template>
   <div>
-    <h1 class="title text-center display-3 pt-4">
+    <h1
+      class="title text-center display-3 pt-4 animate__animated animate__headShake"
+    >
       <a href="/">Arnas Boruchovas</a>
     </h1>
 

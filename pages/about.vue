@@ -6,18 +6,20 @@
 
     <div class="about p-5">
       <div>
-        <p class="pt-4 pb-3">
+        <p
+          class="pt-4 pb-3 animate__animated animate__fadeInRight animate__fast"
+        >
           Hi there! 👋
         </p>
-        <p class="pb-3">
+        <p class="pb-3 animate__animated animate__fadeInRight animate__fast">
           I’m a third year Computer Science student at the 🎓 University of
           Sheffield, currently completing a summer internship at Tribepad.
         </p>
-        <p class="pb-3">
+        <p class="pb-3 animate__animated animate__fadeInLeft animate__fast">
           I’m passionate about designing and creating elegant solutions using 👨‍💻
           modern technologies.
         </p>
-        <p class="pb-3">
+        <p class="pb-3 animate__animated animate__fadeInLeft animate__fast">
           I'm also the Trips Officer 🚀 for hackSheffield, a society at the
           University of Sheffield ran by students. We organise a yearly
           hackathon open to students around the world, as well as visiting other
@@ -57,7 +59,8 @@ body {
 .about {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
-  font-size: 2.5rem;
+  font-size: 2.25rem;
+  overflow: hidden;
 }
 
 a {

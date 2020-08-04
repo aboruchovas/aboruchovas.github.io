@@ -14,7 +14,7 @@
 <style>
 .footer {
   font-family: 'Roboto', sans-serif;
-  background-color: #f8b544;
+  background-color: #88b7b5;
   position: fixed;
   bottom: 0;
   width: 100%;

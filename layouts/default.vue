@@ -6,6 +6,7 @@
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import 'animate.css';
 
 html {
   font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
