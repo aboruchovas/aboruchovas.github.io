@@ -24,6 +24,7 @@ export default {
 .title {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
+  overflow: hidden;
 }
 
 .title a {
@@ -39,4 +40,6 @@ a {
     font-size: 3rem;
   }
 }
+
+/* https://coolors.co/f8b544-847996-88b7b5-a7cab1-f4ecd6 */
 </style>
